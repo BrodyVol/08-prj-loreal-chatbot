@@ -57,15 +57,38 @@ body {
   color: #000;
 }
 
-.msg.ai {
-  color: #666666;
+.msg {
+  margin-bottom: 14px;
+  line-height: 1.5;
+  padding: 12px 18px;
+  border-radius: 18px;
+  max-width: 75%;
+  display: inline-block;
+  word-break: break-word;
+  font-size: 18px;
+  position: relative;
 }
-
-/* input row */
-.chat-form {
-  display: flex;
-  gap: 12px;
-  margin-top: 16px;
+.msg.user {
+  color: #fff;
+  background: #ff003b;
+  align-self: flex-end;
+  margin-left: auto;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 18px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 18px;
+  box-shadow: 0 2px 8px 0 rgba(255, 0, 59, 0.08);
+}
+.msg.ai {
+  color: #000;
+  background: #e3a535;
+  align-self: flex-start;
+  margin-right: auto;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 18px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 18px;
+  box-shadow: 0 2px 8px 0 rgba(227, 165, 53, 0.08);
 }
 
 .chat-form input {
