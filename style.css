@@ -7,7 +7,7 @@
 
 /* —— body + fonts —— */
 body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: "Monotype", "Montserrat", Arial, Helvetica, sans-serif;
   color: #333;
   display: flex;
   justify-content: center;
@@ -42,7 +42,8 @@ body {
   font-size: 18px;
   line-height: 1.5;
   overflow-y: auto;
-  background: #fafafa;
+  background: #000;
+  color: #fff;
   white-space: pre-line;
 }
 
@@ -72,10 +73,12 @@ body {
   padding: 12px;
   border: 1px solid #ccc;
   font-size: 18px;
+  background: #000;
+  color: #fff;
 }
 
 .chat-form input:focus {
-  outline: 2px solid #000;
+  outline: 2px solid #ff003b;
   outline-offset: 2px;
 }
 
